@@ -1,4 +1,17 @@
 import streamlit as st
+
+st.set_page_config(page_title="Calculateur Menuiserie", layout="wide")
+
+# Code pour masquer le menu GitHub et le pied de page
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 import os
 from fpdf import FPDF
 import base64
