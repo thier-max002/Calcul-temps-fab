@@ -1,4 +1,7 @@
 import streamlit as st
+import os
+from fpdf import FPDF
+import base64
 
 st.set_page_config(page_title="Calculateur Menuiserie", layout="wide")
 
@@ -11,10 +14,6 @@ hide_menu_style = """
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
-
-import os
-from fpdf import FPDF
-import base64
 
 st.set_page_config(page_title="Calculateur Menuiserie - PDF Edition", layout="centered")
 
