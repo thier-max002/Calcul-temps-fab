@@ -33,15 +33,15 @@ DATABASE = {
             "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Grilles Air Frais": 0.33, "Bandeau serrure dans ouvrant caché": 2.0, "Ferme porte": 0.33, "Bâton maréchal": 0.5, "Verrouillage semi fixe": 0.5, "Seuil PMR ou seuil plat frappé": 0.5, "Seuil sur coulissant": 1.0, "Serrure 3 points": 0.5, "Bandeau ventouse 1 vantail ": 0.33, "Bandeau ventouse 2 vantail": 0.75}
         },
         "ASS 39 SC": {
-            "types": {"1 vantail": 2.0},
+            "types": {"Coulissant 1 vantail": 1.50, "Coulissant 2 vantaux": 3.0},
             "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Grilles Air Frais": 0.33, "Bandeau serrure dans ouvrant caché": 2.0, "Ferme porte": 0.33, "Bâton maréchal": 0.5, "Verrouillage semi fixe": 0.5, "Seuil PMR ou seuil plat frappé": 0.5, "Seuil sur coulissant": 1.0, "Serrure 3 points": 0.5, "Bandeau ventouse 1 vantail ": 0.33, "Bandeau ventouse 2 vantail": 0.75}
         },
         "ASS 41 SC": {
-            "types": {"1 vantail": 2.0},
+            "types": {"Coulissant 2 vantaux": 2.0, "Coulissant 4 vantaux": 3.0, "Coulissant 6 vantaux":4.0 },
             "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Grilles Air Frais": 0.33, "Bandeau serrure dans ouvrant caché": 2.0, "Ferme porte": 0.33, "Bâton maréchal": 0.5, "Verrouillage semi fixe": 0.5, "Seuil PMR ou seuil plat frappé": 0.5, "Seuil sur coulissant": 1.0, "Serrure 3 points": 0.5, "Bandeau ventouse 1 vantail ": 0.33, "Bandeau ventouse 2 vantail": 0.75}
         }
     },
-    "PAAL 52": {
+    "PAAL (52)": {
         "Fenêtre": {
             "types": {"Séparation":0.5, "Fixe": 0.75, "Française 1 vantail": 1.5, "Française 2 vantaux": 2.5, "Oscillo-battant 1 vantail": 2.0, "Oscillo-battant 2 vantaux": 3.0},
             "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Grilles Air Frais": 0.33, "Mise en place profil en T pour composé": 0.25, "Fixation de composé": 0.5, "Vitrage ouvrant portefeuille": 0.25}
