@@ -13,7 +13,7 @@ hide_menu_style = """
         header {visibility: hidden;}
         
         /* Cette ligne aspire le logo vers le haut de la page */
-        .stImage { margin-top: -45px; } 
+        .stImage { margin-top: -60px; } 
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
@@ -141,7 +141,6 @@ if os.path.exists(image_path):
 st.markdown("<h1 style='text-align: center; margin-top: -5px; margin-bottom: 0px;'>Estimation Temps de Fabrication</h1>", unsafe_allow_html=True)
 
 # 3. Les deux lignes de séparation demandées
-st.markdown("---")
 st.markdown("---")
 
 
