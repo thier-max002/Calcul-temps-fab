@@ -3,7 +3,7 @@ import os
 from fpdf import FPDF
 import base64
 
-st.set_page_config(page_title="Calculateur Menuiserie", layout="wide")
+st.set_page_config(page_title="Calculateur Menuiserie", layout="centered")
 
 # Code pour masquer le menu GitHub et le pied de page
 hide_menu_style = """
