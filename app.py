@@ -15,7 +15,6 @@ hide_menu_style = """
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
-st.set_page_config(page_title="Calculateur Menuiserie - PDF Edition", layout="centered")
 
 # --- 1. BASE DE DONNÉES COMPLÈTE ---
 DATABASE = {
@@ -127,12 +126,22 @@ def create_pdf(gamme, serie, type_m, options, qte, t_unit, t_total):
 
 # --- 3. INTERFACE ---
 image_path = 'logo.png'
+
+# 3 1. Le logo centré (on garde use_container_width pour qu'il s'adapte bien)
 if os.path.exists(image_path):
     col_l1, col_l2, col_l3 = st.columns([1, 2, 1])
-    with col_l2: st.image(image_path, width=200)
+    with col_l2: 
+        st.image(image_path, use_container_width=True)
 
-st.title("Estimation Temps de Fabrication")
+# 3 2. Le titre centré au milieu
+st.markdown("<h1 style='text-align: center;'>Estimation Temps de Fabrication</h1>", unsafe_allow_html=True)
 
+# 3 3. Les deux lignes de séparation demandées
+st.markdown("---")
+st.markdown("---")
+st.markdown("<br>", unsafe_allow_html=True) # Un petit espace vide pour aérer avant les menus
+
+# --- LA SUITE RESTE INCHANGÉE MAIS REPREND SA PLACE PROPREMENT ---
 col1, col2 = st.columns(2)
 with col1:
     gamme_choisie = st.selectbox("Gamme", [""] + list(DATABASE.keys()))
