@@ -41,10 +41,10 @@ DATABASE = {
             "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Grilles Air Frais": 0.33, "Bandeau serrure dans ouvrant caché": 2.0, "Ferme porte": 0.33, "Bâton maréchal": 0.5, "Verrouillage semi fixe": 0.5, "Seuil PMR ou seuil plat frappé": 0.5, "Seuil sur coulissant": 1.0, "Serrure 3 points": 0.5, "Bandeau ventouse 1 vantail ": 0.33, "Bandeau ventouse 2 vantail": 0.75}
         }
     },
-    "PAAL (52)": {
+    "PAAL 52": {
         "Fenêtre": {
             "types": {"Séparation":0.5, "Fixe": 0.75, "Française 1 vantail": 1.5, "Française 2 vantaux": 2.5, "Oscillo-battant 1 vantail": 2.0, "Oscillo-battant 2 vantaux": 3.0},
-            "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Grilles Air Frais": 0.33, "Mise en place profil en T pour composé": 0.25, "Fixation de composé": 0.5, "Vitrage ouvrant portefeuille": 0.25}
+            "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Grilles Air Frais": 0.33, "Mise en place profil en T pour composé": 0.25, "Fixation de composé": 0.5, "Vitrage ouvrant portefeuille": 0.25, "1 Traverse": 0.15, "2 Traverses": 0.3, "3 Traverses": 0.45, "1 Montant": 0.15, "2 Montants": 0.3, "3 Montants": 0.45}
         },
         "Porte": {
             "types": {"Porte 1 vantail": 4.0, "Porte 2 vantaux": 6.0, "Coulissant 2 vantaux": 2.0, "Coulissant 3 vantaux": 2.5, "Coulissant 4 vantaux": 3.0, "Galandage 1 vantail": 3.5, "Galandage 2 vantaux sur 1 côté": 4.0, "Galandage 2 vantaux sur 2 côtés": 4.5},
@@ -55,16 +55,16 @@ DATABASE = {
             "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Grilles Air Frais": 0.33, "Fixation de composé": 0.5, "Verrouillage semi fixe": 0.1, "Ferméture encastré pour persiennes ": 0.5}
         }
     },
-    # "PAAL 70": {
-    #     "Fenêtre": {
-    #         "types": {"Fixe": 1.0, "Française 1 vantail": 1.75, "Française 2 vantaux": 2.75, "Oscillo-battant 1 vantail": 2.25, "Oscillo-battant 2 vantaux": 3.25},
-    #         "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Grilles Air Frais": 0.33, "Mise en place profil en T pour composé": 0.25, "Fixation de composé": 0.5, "Vitrage ouvrant caché": 0.16, "Fabrication et vitrage ouvrant parcloses par vantail": 0.25}
-    #     },
-    #     "Porte": {
-    #         "types": {"Porte 2 vantaux": 7.5, "Coulissant 2 vantaux": 2.25, "Coulissant 3 vantaux": 2.75, "Coulissant 4 vantaux": 3.25, "Galandage 1 vantail": 3.5, "Galandage 2 vantaux sur 1 côté": 4.0, "Galandage 2 vantaux sur 2 côtés": 4.5},
-    #         "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Bandeau ventouse 1 vtl": 0.33, "Bandeau ventouse 2 vantaux": 0.75, "Bandeau serrure ouvrant caché": 1.0, "Serrure 3 points": 0.5, "Ferme porte": 0.33, "Bâton maréchal": 0.5, "Verrouillage semi fixe": 0.1, "Seuil PMR ou seuil plat frappé": 0.5}
-    #     }
-    # }
+    "PAAL 70": {
+        "Fenêtre": {
+            "types": {"Fixe": 1.0, "Française 1 vantail": 1.75, "Française 2 vantaux": 2.75, "Oscillo-battant 1 vantail": 2.25, "Oscillo-battant 2 vantaux": 3.25},
+            "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Grilles Air Frais": 0.33, "Mise en place profil en T pour composé": 0.25, "Fixation de composé": 0.5, "Vitrage ouvrant caché": 0.16, "Fabrication et vitrage ouvrant parcloses par vantail": 0.25}
+        },
+        "Porte": {
+            "types": {"Porte 2 vantaux": 7.5, "Coulissant 2 vantaux": 2.25, "Coulissant 3 vantaux": 2.75, "Coulissant 4 vantaux": 3.25, "Galandage 1 vantail": 3.5, "Galandage 2 vantaux sur 1 côté": 4.0, "Galandage 2 vantaux sur 2 côtés": 4.5},
+            "options": {"Couvre joint à cliper": 0.16, "Tapée + pattes de fixation 3 côtés": 0.33, "Tapée + pattes de fixation 4 côtés": 0.5, "Bandeau ventouse 1 vtl": 0.33, "Bandeau ventouse 2 vantaux": 0.75, "Bandeau serrure ouvrant caché": 1.0, "Serrure 3 points": 0.5, "Ferme porte": 0.33, "Bâton maréchal": 0.5, "Verrouillage semi fixe": 0.1, "Seuil PMR ou seuil plat frappé": 0.5}
+        }
+    }
 }
 
 # --- 2. GESTION DE L'ÉTAT ET FONCTION PDF ---
