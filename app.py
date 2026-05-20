@@ -124,24 +124,25 @@ def create_pdf(gamme, serie, type_m, options, qte, t_unit, t_total):
     # Retourner en bytes pour Streamlit
     return bytes(pdf.output())
 
-# --- 3. INTERFACE ---
+# --- 3. INTERFACE (LOGO COMPACT ET TITRE CENTRÉS) ---
 image_path = 'logo.png'
 
-# 3 1. Le logo centré (on garde use_container_width pour qu'il s'adapte bien)
+# 1. Le logo centré et redimensionné (plus petit)
 if os.path.exists(image_path):
-    col_l1, col_l2, col_l3 = st.columns([1, 2, 1])
-    with col_l2: 
-        st.image(image_path, use_container_width=True)
+    # On crée 5 colonnes pour pouvoir caler le logo pile au milieu sans qu'il prenne toute la largeur
+    _, _, col_logo, _, _ = st.columns([2, 1, 2, 1, 2])
+    with col_logo:
+        st.image(image_path, width=140)  # Largeur fixée à 140px pour qu'il soit discret
 
-# 3 2. Le titre centré au milieu
-st.markdown("<h1 style='text-align: center;'>Estimation Temps de Fabrication</h1>", unsafe_allow_html=True)
+# 2. Le titre centré au milieu (collé au logo)
+st.markdown("<h1 style='text-align: center; margin-top: -10px; margin-bottom: 0px;'>Estimation Temps de Fabrication</h1>", unsafe_allow_html=True)
 
-# 3 3. Les deux lignes de séparation demandées
+# 3. Les deux lignes de séparation demandées
 st.markdown("---")
 st.markdown("---")
-st.markdown("<br>", unsafe_allow_html=True) # Un petit espace vide pour aérer avant les menus
 
-# --- LA SUITE RESTE INCHANGÉE MAIS REPREND SA PLACE PROPREMENT ---
+
+# --- 4. CONFIGURATEUR (RESTE INCHANGÉ) ---
 col1, col2 = st.columns(2)
 with col1:
     gamme_choisie = st.selectbox("Gamme", [""] + list(DATABASE.keys()))
