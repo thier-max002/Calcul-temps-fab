@@ -5,12 +5,15 @@ import base64
 
 st.set_page_config(page_title="Calculateur Menuiserie", layout="centered")
 
-# Code pour masquer le menu GitHub et le pied de page
+# Code pour masquer le menu GitHub et le pied de page + REMONTER LE LOGO
 hide_menu_style = """
         <style>
         #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
         header {visibility: hidden;}
+        
+        /* Cette ligne aspire le logo vers le haut de la page */
+        .stImage { margin-top: -45px; } 
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
@@ -134,8 +137,8 @@ if os.path.exists(image_path):
     with col_logo:
         st.image(image_path, width=140)  # Largeur fixée à 140px pour qu'il soit discret
 
-# 2. Le titre centré au milieu (collé au logo)
-st.markdown("<h1 style='text-align: center; margin-top: -50px; margin-bottom: 0px;'>Estimation Temps de Fabrication</h1>", unsafe_allow_html=True)
+# 2. Le titre centré au milieu
+st.markdown("<h1 style='text-align: center; margin-top: -5px; margin-bottom: 0px;'>Estimation Temps de Fabrication</h1>", unsafe_allow_html=True)
 
 # 3. Les deux lignes de séparation demandées
 st.markdown("---")
