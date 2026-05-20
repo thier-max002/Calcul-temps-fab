@@ -135,7 +135,7 @@ if os.path.exists(image_path):
         st.image(image_path, width=140)  # Largeur fixée à 140px pour qu'il soit discret
 
 # 2. Le titre centré au milieu (collé au logo)
-st.markdown("<h1 style='text-align: center; margin-top: -10px; margin-bottom: 0px;'>Estimation Temps de Fabrication</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; margin-top: -5px; margin-bottom: 0px;'>Estimation Temps de Fabrication</h1>", unsafe_allow_html=True)
 
 # 3. Les deux lignes de séparation demandées
 st.markdown("---")
