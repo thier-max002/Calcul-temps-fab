@@ -18,6 +18,8 @@ hide_menu_style = """
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
+
+
 #1.BASE DE DONNEES
 DATABASE = {
     "PAAL": {
@@ -325,6 +327,14 @@ DATABASE = {
     }
 }
 
+
+
+
+
+
+
+# ***********************************************A NE PAS TOUCHER *****************************************************#
+
 # --- 2. GESTION DE L'ÉTAT ET FONCTION PDF ---
 if "calcul_fait" not in st.session_state:
     st.session_state.calcul_fait = False
@@ -479,3 +489,9 @@ if gamme_choisie and serie_nom and donnees:
             mime="application/pdf",
             use_container_width=True
         )
+
+st.markdown("---")  # Crée une ligne de séparation discrète
+st.markdown(
+    "<h5 style='text-align: center; color: gray;'>by Ndour</h5>", 
+    unsafe_allow_html=True
+)
