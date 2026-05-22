@@ -34,7 +34,6 @@ DATABASE = {
                     "Galandage 2 vantaux sur 2 côtés": 4.5
                 },
                 "options": {
-                    "Bandeau serrure dans ouvrant caché": 2.0,
                     "Couvre joint à cliper": 0.16,
                     "Fabrication et vitrage ouvrant parcloses par vtl": 0.25,
                     "Fixation de composé": 0.5,
@@ -98,12 +97,6 @@ DATABASE = {
             },
             "Porte": {
                 "types": {
-                    "Coulissant 2 vantaux": 2.0,
-                    "Coulissant 3 vantaux": 2.5,
-                    "Coulissant 4 vantaux": 3.0,
-                    "Galandage 1 vantail": 3.5,
-                    "Galandage 2 vantaux sur 1 côté": 4.0,
-                    "Galandage 2 vantaux sur 2 côtés": 4.5,
                     "Porte 1 vantail": 4.0,
                     "Porte 2 vantaux": 6.0
                 },
@@ -276,9 +269,6 @@ DATABASE = {
         },
         "Porte ADS 60": {
             "types": {
-                "Galandage 1 vantail": 3.5,
-                "Galandage 2 vantaux sur 1 côté": 4.0,
-                "Galandage 2 vantaux sur 2 côté": 4.5,
                 "Porte 1 vantail": 4.0,
                 "Porte 2 vantaux": 7.5
             },
