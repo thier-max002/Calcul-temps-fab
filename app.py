@@ -490,9 +490,13 @@ if gamme_choisie and serie_nom and donnees:
             use_container_width=True
         )
 
+# On crée un espace pour pousser le texte vers le bas
+st.write("<br>" * 3, unsafe_allow_html=True)
+
+# Ta signature bien ancrée à droite
 st.markdown(
     """
-    <div style="position: fixed; bottom: 15px; right: 25px; z-index: 1000;">
+    <div style="text-align: right; padding-right: 20px; padding-bottom: 20px;">
         <span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
                      font-size: 13px; 
                      font-weight: 300; 
