@@ -490,8 +490,17 @@ if gamme_choisie and serie_nom and donnees:
             use_container_width=True
         )
 
-st.markdown("---")  # Crée une ligne de séparation discrète
 st.markdown(
-    "<h5 style='text-align: center; color: gray;'>by Ndour</h5>", 
+    """
+    <div style="text-align: right; margin-top: 50px; padding-right: 10px;">
+        <span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+                     font-size: 13px; 
+                     font-weight: 300; 
+                     letter-spacing: 1px; 
+                     color: #888888;">
+            @TMMN
+        </span>
+    </div>
+    """, 
     unsafe_allow_html=True
 )
