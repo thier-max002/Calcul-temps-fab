@@ -492,7 +492,7 @@ if gamme_choisie and serie_nom and donnees:
 
 st.markdown(
     """
-    <div style="text-align: right; margin-top: 50px; padding-right: 10px;">
+    <div style="position: fixed; bottom: 15px; right: 25px; z-index: 1000;">
         <span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
                      font-size: 13px; 
                      font-weight: 300; 
