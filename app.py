@@ -34,7 +34,10 @@ DATABASE = {
                     "Majoration lg + 3 m": 0.6,
                     "Galandage 1 vantail": 3.5,
                     "Galandage 2 vantaux sur 1 côté": 4.0,
-                    "Galandage 2 vantaux sur 2 côtés": 4.5
+                    "Galandage 2 vantaux sur 2 côtés": 4.5,
+                    "Intégration ouvrant volma": 5.0,
+                    "Seuil auto": 0.5,
+                    "RC": 0.5,
                 },
                 "options": {
                     "Couvre joint à cliper": 0.16,
@@ -48,7 +51,10 @@ DATABASE = {
                     "Tapée + pattes de fixation 2 côtés":0.25,
                     "Tapée + pattes de fixation 3 côtés": 0.33,
                     "Tapée + pattes de fixation 4 côtés": 0.5,
-                    "Vitrage ouvrant caché": 0.16
+                    "Vitrage ouvrant caché": 0.16,
+                    "Intégration ouvrant volma": 5.0,
+                    "Seuil auto": 0.5,
+                    "RC": 0.5,
                 }
             },
             "Fenêtre": {
@@ -123,7 +129,10 @@ DATABASE = {
                     "Tapée + pattes de fixation 3 côtés": 0.33,
                     "Tapée + pattes de fixation 4 côtés": 0.5,
                     "Verrouillage semi fixe": 0.5,
-                    "Vitrage ouvrant caché": 0.16
+                    "Vitrage ouvrant caché": 0.16,
+                    "Intégration ouvrant volma": 5.0,
+                    "Seuil auto": 0.5,
+                    "RC": 0.5,
                 }
             }
         },
@@ -153,7 +162,10 @@ DATABASE = {
                     "Tapée + pattes de fixation 2 côtés": 0.25,
                     "Tapée + pattes de fixation 3 côtés": 0.33,
                     "Tapée + pattes de fixation 4 côtés": 0.5,
-                    "Vitrage ouvrant caché": 0.16
+                    "Vitrage ouvrant caché": 0.16,
+                    "Intégration ouvrant volma": 5.0,
+                    "Seuil auto": 0.5,
+                    "RC": 0.5,
                 }
             },
             "Fenêtre": {
@@ -208,7 +220,11 @@ DATABASE = {
                     "Tapée + pattes de fixation 3 côtés": 0.33,
                     "Tapée + pattes de fixation 4 côtés": 0.5,
                     "Verrouillage semi fixe": 0.5,
-                    "Vitrage ouvrant caché": 0.16
+                    "Vitrage ouvrant caché": 0.16,
+                    "Vitrage ouvrant caché": 0.16,
+                    "Intégration ouvrant volma": 5.0,
+                    "Seuil auto": 0.5,
+                    "RC": 0.5,
                 }
             }
         }
@@ -239,7 +255,11 @@ DATABASE = {
                 "Tapée + pattes de fixation 2 côtés": 0.25,
                 "Tapée + pattes de fixation 3 côtés": 0.33,
                 "Tapée + pattes de fixation 4 côtés": 0.5,
-                "Vitrage ouvrant caché": 0.16
+                "Vitrage ouvrant caché": 0.16,
+                "Vitrage ouvrant caché": 0.16,
+                "Intégration ouvrant volma": 5.0,
+                "Seuil auto": 0.5,
+                "RC": 0.5,
             }
         },
         "ASS 41 SC": {
@@ -268,7 +288,11 @@ DATABASE = {
                 "Tapée + pattes de fixation 2 côtés": 0.25,
                 "Tapée + pattes de fixation 3 côtés": 0.33,
                 "Tapée + pattes de fixation 4 côtés": 0.5,
-                "Vitrage ouvrant caché": 0.16
+                "Vitrage ouvrant caché": 0.16,
+                "Vitrage ouvrant caché": 0.16,
+                "Intégration ouvrant volma": 5.0,
+                "Seuil auto": 0.5,
+                "RC": 0.5,
             }
         },
         "Fenêtre AWS 60 /BD": {
@@ -316,7 +340,11 @@ DATABASE = {
                 "Tapée + pattes de fixation 3 côtés": 0.33,
                 "Tapée + pattes de fixation 4 côtés": 0.5,
                 "Verrouillage semi fixe": 0.5,
-                "Vitrage ouvrant caché": 0.16
+                "Vitrage ouvrant caché": 0.16,
+                "Vitrage ouvrant caché": 0.16,
+                "Intégration ouvrant volma": 5.0,
+                "Seuil auto": 0.5,
+                "RC": 0.5,
             }
         },
         "Porte fenêtre": {
@@ -340,7 +368,11 @@ DATABASE = {
                 "Tapée + pattes de fixation 3 côtés": 0.33,
                 "Tapée + pattes de fixation 4 côtés": 0.5,
                 "Verrouillage semi fixe": 0.5,
-                "Vitrage ouvrant caché": 0.16
+                "Vitrage ouvrant caché": 0.16,
+                "Vitrage ouvrant caché": 0.16,
+                "Intégration ouvrant volma": 5.0,
+                "Seuil auto": 0.5,
+                "RC": 0.5,
             }
         }
     }
